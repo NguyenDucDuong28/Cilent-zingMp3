@@ -1,0 +1,148 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    line-height: none;
+}
+span {
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    width: 187px;
+    height: 70px;
+}
+.header-logo img {
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+    padding-top: 5px;
+    padding-bottom: 18px;
+}
+.navbar{
+    background-color: #221A2D;
+    width: 240px ;
+}
+.zm-navbar-menu{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap
+}
+.zm-navbar-item-is-active  a{
+    display: flex;
+    align-items: center;
+    width: 195px;
+    height: 24px;
+    padding: 14px 21px;
+}
+.zm-navbar-item-is-active a span{
+    padding-left: 24px;
+    line-height: 20px;
+    font-weight: 500;
+    color: white; 
+}
+
+.zm-navbar-item-is-library  a{
+    display: flex;
+    align-items: center;
+    width: 195px;
+    height: 24px;
+    padding: 14px 21px;
+  
+}
+.zm-navbar-item-is-library a span{
+    padding-left: 24px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: white; 
+}
+
+ .zm-sidebar-menu {
+    padding-top: 18px;
+ }
+.zm-sidebar-scrollbar-BXH  a{
+    display: flex;
+    align-items: center;
+    width: 195px;
+    height: 24px;
+    padding: 14px 21px;
+}
+.zm-sidebar-scrollbar-BXH a span{
+    padding-left: 24px;
+    line-height: 20px;
+    font-weight: 500;
+    color: white; 
+}
+
+.vip {
+    padding-top: 18px;
+    border-bottom :1px solid #393142; 
+}
+.vip-banner-sidebar{
+    padding: 15px 8px;
+    border-radius: 8px;
+    margin: 0 20px;
+    text-align: center;
+    background: linear-gradient(136deg, #5E4CE7 0%, #BE6AD8 100%);
+}
+.text {
+    padding-bottom:10px ;
+}
+.vip-btn {
+    background-color: #ffdb00;
+    border-color: #ffdb00;
+    color: #393142;
+    display: inline-block;
+    padding: 6px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.zm-sidebar-scrollbar-play  a{
+    display: flex;
+    align-items: center;
+    width: 195px;
+    height: 40px;
+    padding: 14px 21px;
+}
+.zm-sidebar-scrollbar-play a span{
+    padding-left: 24px;
+    line-height: 20px;
+    font-weight: 500;
+    color: white; 
+}
+.library-personal {
+    padding-top: 27px;
+}
+.zm-navbar-item-library-persona a {
+    display: flex;
+    align-items: center;
+    width: 195px;
+    height: 40px;
+    padding: 6px 21px;
+}
+.zm-navbar-item-library-persona a span {
+    padding-left: 24px;
+    line-height: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.zm-sidebar-menu{
+    max-width:240px ;
+    overflow: scroll;
+}
+.zm-sidebar-meu::-webkit-scrollbar{
+    width: 10px;
+}
+.zm-sidebar-menu::-webkit-scrollbar-thumb {
+    background-color: #BE6AD8;
+}
+.zm-sidebar-menu::-webkit-scrollbar-track {
+    
+}
